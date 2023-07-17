@@ -1,0 +1,45 @@
+.wd-bookmark-top{
+  margin-top: 12px;
+}
+.wd-bookmark-size{
+  font-size: 20px;
+}
+.wd-bookmark-left{
+  margin-left: 16px;
+}
+.wd-gray{
+  color: rgb(110,118,125);
+}
+.wd-dot-blue{
+  color: cornflowerblue;
+  text-align: right;
+  margin-right: 16px;
+}
+.wd-avatar{
+  margin-left: 16px;
+  margin-top: 12px;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+}
+.wd-picture{
+  height: 206px;
+  width: 504px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 12px;
+}
+.wd-logo{
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+}
+.wd-into{
+  margin-left: 12px;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+.wd-logo-po{
+  position: relative;
+  top: 5px;
+}
