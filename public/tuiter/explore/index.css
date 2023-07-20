@@ -1,0 +1,267 @@
+.wd-margin-left {
+  margin-left: 16px;
+}
+
+.wd-margin-top {
+  margin-top: 16px;
+}
+
+.wd-search {
+  position: relative;
+  margin-top: 8px;
+  border-style: solid;
+  border-width: 0;
+  color: white;
+  padding-left: 40px;
+  height: 28px;
+  border-radius: 16px;
+  width: 80%;
+}
+
+.wd-highlighted {
+  color: rgb(29, 161, 242);
+  margin-top: 32px;
+}
+
+.wd-char-font {
+  font-size: 15px;
+}
+
+.wd-other-words {
+  color: rgb(110, 118, 125);
+  margin-top: 32px;
+}
+
+.wd-gear-size {
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 12px;
+  height: 28px;
+  width: 28px;
+}
+
+.wd-words-style {
+  text-decoration: none;
+}
+
+.wd-dot {
+  text-align: right;
+  margin-right: 16px;
+}
+.wd-piece-char {
+  margin-left: 16px;
+}
+.wd-piece-gray {
+  color: rgb(110, 118, 125);
+}
+.wd-size {
+  font-size: 15px;
+}
+
+.wd-piece-top {
+  margin-top: 16px;
+}
+
+
+.wd-margin-left{
+  margin-left: 16px;
+}
+.wd-margin-top{
+  margin-top: 16px;
+}
+.wd-search{
+  position: relative;
+  margin-top: 8px;
+  border-style: solid;
+  border-width: 0;
+  color: white;
+  padding-left: 40px;
+  height: 28px;
+  border-radius: 16px;
+  width: 80%;
+}
+.wd-highlighted{
+  color: rgb(29,161,242);
+  margin-top: 32px;
+}
+.wd-char-font{
+  font-size: 15px;
+}
+.wd-other-words{
+  color: rgb(110,118,125);
+  margin-top: 32px;
+}
+.wd-gear-size{
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 12px;
+  height: 28px;
+  width: 28px;
+}
+.wd-gear-search{
+  margin-top: 10px;
+  height: 32px;
+  width: 32px;
+}
+.wd-words-style{
+  text-decoration: none
+}
+.wd-horizontal-line0{
+  margin-left: 16px;
+  border-color: rgb(29,161,242);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 2px;
+  width: 54px;
+}
+
+.wd-dot{
+  text-align: right;
+  margin-right: 16px;
+}
+.wd-piece-char{
+  margin-left: 16px;
+}
+.wd-piece-gray{
+  color: rgb(110,118,125);
+}
+.wd-size{
+  font-size: 15px;
+}
+.wd-piece-50{
+  width: 75%;
+  float: left;
+  text-align: left;
+}
+.wd-piece{
+  width: 50px;
+  height: 50px;
+}
+.wd-piece2{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  float: right;
+}
+.wd-logo{
+  width: 10px;
+  height: 10px;
+  margin-top: 16px;
+}
+.wd-logo2{
+  width: 15px;
+  height: 15px;
+  margin-top: 16px;
+}
+.wd-piece-top{
+  margin-top: 16px;
+}
+.wd-search-twitter{
+  bottom: 10px;
+  left: 10px;
+}
+.wd-col-left{
+  background: transparent;
+}
+.list-group-item.override-lgi {
+  border-color: white;
+}
+.list-group-item.override-lgi.override-lgii {
+  background-color: rgb(225, 232, 237);
+  border-color: rgb(225, 232, 237);
+}
+.active.override-active-color{
+  background: white;
+  color: black;
+  font-weight: bold;
+}
+.twitter-blue{
+  background: rgb(29,161,242);
+}
+.twitter-char{
+  color: white;
+  font-weight: bold;
+}
+.fa-house-user.override-lg-color{
+
+}
+.fa-check-circle.override-circle-blue{
+  color: rgb(29,161,242);
+}
+.fa-check-circle.override-circle-gold{
+  color: #D4AF37;
+}
+.list-group-item.override-radius{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  margin-top: 25px;
+}
+.list-group-item.override-radius2{
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height: 48px;
+}
+.list-group-item.override-border{
+  border-bottom: 0;
+}
+.bottom-0.override-bottom{
+  margin-bottom: 10px;
+  margin-left: 15px;
+  font-size: small;
+}
+.bottom-0.override-bottom2{
+  margin-bottom: 30px;
+  margin-left: 15px;
+  font-size: xx-large;
+}
+.nav-tabs.override-tab{
+  border: 0;
+  color: black;
+  font-weight: bold;
+}
+.nav-item.override-item{
+  color: black;
+}
+.form-control.override-search-color{
+  background-color: #E1E8ED;
+}
+.active.override-for-you{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  color: black;
+  border-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom-color: rgb(29,161,242);
+}
+.nav-link.override-link{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  color: #657786;
+  border-bottom: 3px;
+  border-color: rgb(29,161,242);
+}
+.nav-item.over-iterm{
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  color: black;
+  border-bottom: 3px;
+  border-color: rgb(29,161,242);
+}
+.nav.override-nav{
+  color: black;
+  border-bottom: 3px;
+  border-color: rgb(29,161,242);
+}
+.line-in-blue{
+  color: blue;
+  margin-left: 15px;
+  width: 60px;
+  margin-bottom: 0;
+  margin-top: 2px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+}
