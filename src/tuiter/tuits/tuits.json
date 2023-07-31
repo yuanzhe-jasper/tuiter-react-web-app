@@ -1,0 +1,44 @@
+[
+    {
+    "_id": 123,
+    "topic": "SpaceX",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "nasa.png",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+    },
+    {
+      "_id": 234,
+      "topic": "Tesla",
+      "userName": "tesla",
+      "time": "12h",
+      "title": "Hundreds of venture capital firms vow to work with Silicon Valley Bank again if new owner is found",
+      "image": "nasa.png",
+      "liked": false,
+      "replies": 888,
+      "retuits": 888,
+      "likes": 888,
+      "handle": "@tesla",
+      "tuit": "The SVB failure marks the largest in U.S. banking since the 2008 financial crisis and the second-largest ever.\n\nOther venture investors lamented that directives from influential firms, even if prudent in a way, contributed to the run on a bank that had been a long-trusted financial partner to tech startups and firms that invest in them for decades."
+    },
+    {
+      "_id": 345,
+      "topic": "Google",
+      "userName": "google",
+      "time": "24h",
+      "title": "Tech company.",
+      "image": "nasa.png",
+      "liked": true,
+      "replies": 999,
+      "retuits": 999,
+      "likes": 999,
+      "handle": "@google",
+      "tuit": "Home venture firms withdrew their own money and instructed their portfolio companies to withdraw their deposits from SVB before the run. Reportedly Founders Fund, USV and Coatue were among those to do so.\n\n"
+    }
+  ]
