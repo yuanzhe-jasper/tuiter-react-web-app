@@ -1,6 +1,15 @@
 import React from "react";
 
-const TuitSummaryItem = ({ tuit }) => {
+const TuitSummaryItem = ({
+  tuit = {
+    topic: "Space",
+    userName: "SpaceX",
+    time: "2h",
+    title:
+      "Tesla Cybertruck lands on Mars and picks up the Curiosity rover on its 6' bed",
+    image: "nasa.png",
+  },
+}) => {
   return (
     <li className="list-group-item">
       <div className="row">
