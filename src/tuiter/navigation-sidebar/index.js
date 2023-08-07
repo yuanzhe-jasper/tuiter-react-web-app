@@ -1,6 +1,10 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import { useSelector } from "react-redux";
+
 const NavigationSidebar = () => {
+  const {currentUser} = useSelector((state) => state.user);
+
   const { pathname } = useLocation();
   const [ignore, tuiter, active] = pathname.split("/");
   return (
@@ -47,13 +51,35 @@ ${active === "lists" ? "active" : ""}`}
       >
         Lists
       </Link>
-      <Link
-        to={"/tuiter/profile "}
-        className={`list-group-item
-${active === "profile" ? "active" : ""}`}
-      >
-        Profile
-      </Link>
+
+      {!currentUser && (
+        <Link
+          to={"/tuiter/login "}
+          className={`list-group-item
+${active === "login" ? "active" : ""}`}
+        >
+          Login
+        </Link>
+      )}
+      {!currentUser && (
+        <Link
+          to={"/tuiter/register "}
+          className={`list-group-item
+     ${active === "register" ? "active" : ""}`}
+        >
+          Register
+        </Link>
+      )}
+      {currentUser && (
+        <Link
+          to={"/tuiter/profile "}
+          className={`list-group-item
+     ${active === "profile" ? "active" : ""}`}
+        >
+          Profile
+        </Link>
+      )}
+
       <Link
         to={"/tuiter/more "}
         className={`list-group-item

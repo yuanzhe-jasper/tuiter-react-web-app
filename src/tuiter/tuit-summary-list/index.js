@@ -4,7 +4,7 @@ import {useSelector} from "react-redux";
 
 const TuitSummaryList = () => {
 
-  const tuits = useSelector(state => state.tuits)
+  const { tuits } = useSelector((state) => state.tuitsData);
   return (
     <ul className="list-group">
       {tuits.map((tuit) => (
