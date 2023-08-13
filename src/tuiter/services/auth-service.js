@@ -6,8 +6,6 @@ const USERS_URL = `${API_BASE}/users`;
 console.log(USERS_URL);
 
 
-
-
 const api = axios.create({ withCredentials: true })
 
 
